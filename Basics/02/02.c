@@ -2,22 +2,24 @@
 
 void main() {
     /**
-     * Data-Types: 
-     *   int        - Integer decimals
-     *   float      - Floating point numbers
-     *   char       - Single Characters or Symbols
+    * Datatypes:
+    *   int     0, -1, 100
+    *   float   -1.23f, 3.14f
+    *   char    'A', '-'
     **/
 
-    //int a = 3;
-    //float b = 3.34f;
-    //char c = 'A';
-
-    // printf() outputs a text.
-    //printf(" int a is %d, float b is %.2f, char c is %c \n", a, b, c);
-
-    // Simple maths with variables
+    /**
     int a = 3;
-    int b = 4;
+    float b = 3.14f;
+    char c = 'A';
+    **/
 
-    printf( "%d + %d equals %d \n", a,b, a+b );
+    // Out variables
+    // printf("int a equals %d, float b equals %.2f, char c is an %c \n", a,b,c);
+
+    // calculating in C
+    int x1 = 3;
+    int x2 = 4;
+
+    printf("%d + %d equals %d \n", x1, x2, x1+x2);
 }
