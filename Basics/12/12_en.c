@@ -9,9 +9,9 @@ void main() {
   int letters[26] = {0}; // init all array values with 0
 
   while( (c = getchar()) != EOF ) {
-    if( c >= 'a' || c <= 'z' )
+    if( c >= 'a' && c <= 'z' )
       letters[(c - 'a')]++;
-    if( c >= 'A' || c <= 'Z' )
+    if( c >= 'A' && c <= 'Z' )
       letters[(c - 'A')]++;
   }
 

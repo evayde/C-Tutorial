@@ -10,9 +10,9 @@ void main() {
   int buchstaben[26] = {0}; // Alle Werte mit 0 initialisiert
 
   while( (c = getchar()) != EOF ) {
-    if(c >= 'a' || c <= 'z')
+    if(c >= 'a' && c <= 'z')
       buchstaben[(c - 'a')]++;
-    if(c >= 'A' || c <= 'Z')
+    if(c >= 'A' && c <= 'Z')
       buchstaben[(c - 'A')]++;
   }
 
