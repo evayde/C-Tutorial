@@ -1,0 +1,11 @@
+{
+  "files.associations": {
+    "stdio.h": "c",
+    "list.h": "c",
+    "stdlib.h": "c",
+    "vcruntime.h": "c",
+    "corecrt.h": "c",
+    "corecrt_malloc.h": "c"
+  },
+  "editor.fontSize": 20
+}
