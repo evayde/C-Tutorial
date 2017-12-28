@@ -4,11 +4,11 @@
 **/
 #include<stdio.h>
 
-// Konstanten: 
-#define IMWORT 1
-#define AUSWORT 0
-
 void main() {
+  // Konstanten: 
+  const int IMWORT = 1;
+  const int AUSWORT = 0;
+
   int c,
       istWort = AUSWORT, // Boolscher Wert 
       woerter = 0; // Anzahl der Wörter
